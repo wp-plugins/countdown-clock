@@ -139,24 +139,27 @@ function countdown_clock_init()
       	echo '</label>';
       	echo '</li>';
 
-      	// Set Event Date
-	echo "\n";
-      	echo '<li style="list-style: none;text-align:bottom;align:center;text-align:center;margin:0px 0px 20px 0px">';
-	echo '<label for="countdown-clock-date">Event Date<br>';
+	if($group == "Special Day" || $group == "My Countdown" || $group == "Event")
+	{
+		// Set Event Date
+		echo "\n";
+		echo '<li style="list-style: none;text-align:bottom;align:center;text-align:center;margin:0px 0px 20px 0px">';
+		echo '<label for="countdown-clock-date">Event Date<br>';
 
-        echo '<select id="countdown-clock-event-day" name="countdown-clock-event-day"  style="width:45px">';
-      	cdc_print_thedays_list($event_day);
-      	echo '</select> &nbsp;'; 
+        	echo '<select id="countdown-clock-event-day" name="countdown-clock-event-day"  style="width:45px">';
+      		cdc_print_thedays_list($event_day);
+      		echo '</select> &nbsp;'; 
 
-        echo '<select id="countdown-clock-event-month" name="countdown-clock-event-month"  style="width:80px">';
-      	cdc_print_themonth_list($event_month);
-      	echo '</select>&nbsp;';
+        	echo '<select id="countdown-clock-event-month" name="countdown-clock-event-month"  style="width:80px">';
+      		cdc_print_themonth_list($event_month);
+      		echo '</select>&nbsp;';
 
-        echo '<select id="countdown-clock-event-year" name="countdown-clock-event-year"  style="width:60px">';
-      	cdc_print_theyear_list($event_year);
-      	echo '</select>';
+        	echo '<select id="countdown-clock-event-year" name="countdown-clock-event-year"  style="width:60px">';
+      		cdc_print_theyear_list($event_year);
+      		echo '</select>';
 
-	echo '</label></li>';
+		echo '</label></li>';
+	}
 
 
       	// Set clock type
@@ -341,7 +344,8 @@ function countdown_clock_init()
 	$widget_call_string .= '&widget_number='.$typeflag;
 	$widget_call_string .= '&text1='.$text1;
 	$widget_call_string .= '&text2='.$text2;
-	$widget_call_string .= '&event_time='.$event_time;
+	if($group == "Special Day" || $group == "My Countdown" || $group == "Event")
+		  $widget_call_string .= '&event_time='.$event_time;
 	$widget_call_string .= '&img='.$background;
 
 	#	IMG
