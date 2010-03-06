@@ -1,7 +1,7 @@
 === Countdown Clock ===
 Contributors: mycountdown.org
 Donate link: http://www.mycountdown.org/
-Tags: countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days,
+Tags: countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, christmas countdown
 Tested up to: 2.9.1
 Requires at least: 1.5
 Stable tag: trunk
