@@ -54,7 +54,7 @@ function countdown_clock_init()
            	'background' => '1',
            	'event_day' => '12',
            	'event_month' => '11',
-           	'event_year' => '1997',
+           	'event_year' => '2010',
            	'size' => '150',
            	'typeflag' => '3010',
            	'text_color' => '#000000',
@@ -269,6 +269,8 @@ function countdown_clock_init()
 	<input type="checkbox" id="countdown-clock-titleflag" name="countdown-clock-titleflag" value=1 '.$title_checked.' /> 
 	</label></li>';
 
+	echo "\n";
+        echo '<li style="list-style: none;font-size:9px;text-align:left;margin:20px 0px 0px 0px">*Save after each selection</li>';
 	echo '</ul>';
 
 
@@ -310,6 +312,7 @@ function countdown_clock_init()
       	$background_color = htmlspecialchars($options['background_color'], ENT_QUOTES);
 
 	$new_countdown_date = $event_year ."-" . $event_month . "-" . $event_day;
+
 	if(empty($event_day) || empty($event_month) || empty($event_year) )
 		$event_time = date('U',time()+3600*24*300);
 	else{
@@ -317,6 +320,7 @@ function countdown_clock_init()
         	$new_dateTimeUTC = new DateTime($new_countdown_date, $dateTimeZoneUTC);
  		$event_time =   $new_dateTimeUTC->format('U') ;
 	}
+
 
 	echo $before_widget; 
 
@@ -344,8 +348,11 @@ function countdown_clock_init()
 	$widget_call_string .= '&widget_number='.$typeflag;
 	$widget_call_string .= '&text1='.$text1;
 	$widget_call_string .= '&text2='.$text2;
-	if($group == "Special Day" || $group == "My Countdown" || $group == "Event")
+
+	$lgroup = strtolower($group);
+	if($lgroup == "special+day" || $lgroup == "my+countdown" || $lgroup == "event")
 		  $widget_call_string .= '&event_time='.$event_time;
+
 	$widget_call_string .= '&img='.$background;
 
 	#	IMG
