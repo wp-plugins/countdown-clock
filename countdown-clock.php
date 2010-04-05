@@ -127,15 +127,21 @@ function countdown_clock_init()
      	cdc_print_thecountdown_list($group,$countdown, $countdown_list);
       	echo '</select></label></li>';
 
+	if(empty($text1))
+		$text1 = $countdown;
+	
+	if(empty($text2))
+		$text2 = "Happy " . $countdown;
+
 	// Event Name 
       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-text1">'.'Event<br>';
-        echo '<input id="countdown-clock-text1" type="text" name="countdown-clock-text1" style="width: 220px; font-size:13px;align:right;" value="'. $countdown .'">';
+        echo '<input id="countdown-clock-text1" type="text" name="countdown-clock-text1" style="width: 220px; font-size:13px;align:right;" value="'. $text1 .'">';
       	echo '</label>';
       	echo '</li>';
 
       	// Event Message
       	echo '<li style="list-style: none;align:center;text-align:center;margin:0px 0px 10px 0px"><label for="countdown-clock-text2">'.'Event Message<br>';
-        echo '<input id="countdown-clock-text2" type="text" name="countdown-clock-text2" style="width: 220px; font-size:13px;align:right;" value="Happy '. $countdown .'">';
+        echo '<input id="countdown-clock-text2" type="text" name="countdown-clock-text2" style="width: 220px; font-size:13px;align:right;" value="'. $text2 .'">';
       	echo '</label>';
       	echo '</li>';
 
