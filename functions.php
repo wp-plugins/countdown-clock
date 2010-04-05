@@ -82,7 +82,7 @@ function cdc_print_thedays_list($day){
 // This function print the month list
 
 function cdc_print_themonth_list($month){
-	 $months = array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+	 $months = array ("blank","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
 	 echo "\n";
 	 $ii=1;
@@ -95,6 +95,9 @@ function cdc_print_themonth_list($month){
 		echo "\n";
 		$ii++;
 	}
+
+	# add one
+
 }
 
 
