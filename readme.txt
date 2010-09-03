@@ -24,7 +24,7 @@ Display a flash countdown on your sidebar to any event. Select date, title and e
 2. Upload the folder `countdown-clock` to your WP plugin folder `/wp-content/plugins/` directory,
 3. Go to Plugins > Installed, and activate the plugin,
 4. Go to Appearance > Widgets, and drag the widget to a sidebar,
-5. Select the clock type, colors, country, city and size from the clocks setting menu
+5. Select the clock type, colors, background and size from the coutndown setting menu
 
 == Screenshots ==
 
