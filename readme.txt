@@ -2,7 +2,7 @@
 Contributors: mycountdown.org
 Donate link: http://www.mycountdown.org/
 Tags: countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, christmas countdown
-Tested up to: 2.9.1
+Tested up to: 3.0.1
 Requires at least: 1.5
 Stable tag: 1.0
 
@@ -24,7 +24,7 @@ Display a flash countdown on your sidebar to any event. Select date, title and e
 2. Upload the folder `countdown-clock` to your WP plugin folder `/wp-content/plugins/` directory,
 3. Go to Plugins > Installed, and activate the plugin,
 4. Go to Appearance > Widgets, and drag the widget to a sidebar,
-5. Select the clock type, colors, country, city and size from the clocks setting menu
+5. Select the clock type, colors, background and size from the countdown setting menu
 
 == Screenshots ==
 
@@ -34,8 +34,13 @@ Display a flash countdown on your sidebar to any event. Select date, title and e
 4. Compact Widget with background picture or animation
 5. Square Widget with background picture or animation
 6. Vertical Large Widget with background picture or animation
+7. Fireworks
 
 == Changelog ==
+
+= 1.1 =
+* Released 03/09/2010 
+* Added popular Fireworks design
 
 = 1.0 =
 * Released 08/02/2010 
