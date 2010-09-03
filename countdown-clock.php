@@ -3,7 +3,7 @@
 Plugin Name: Countdown Clock
 Description: Display a flash countdown clock on your sidebar set with text and event of your choosing. Choice of clock designs, colors, sizes, background pictures and animations.
 Author: mycountdown.org
-Version: 1.0
+Version: 1.1
 Author URI: http://mycountdown.org
 Plugin URI: http://mycountdown.org/wordpress-countdown-clock-plugin/
 */

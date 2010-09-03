@@ -4,7 +4,7 @@ Donate link: http://www.mycountdown.org/
 Tags: countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, christmas countdown
 Tested up to: 3.0.1
 Requires at least: 1.5
-Stable tag: 1.0
+Stable tag: 1.1
 
 
 == Description ==
