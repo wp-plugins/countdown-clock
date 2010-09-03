@@ -202,7 +202,7 @@ function countdown_clock_init()
 		  	$check_selected = "";
 			 if($kki == $background) $check_selected = " SELECTED ";
 			 echo "\n";
-                  	echo '<option value="'.$kki.' '.$check_selected.'">' .$vvi.'</option>';
+                  	echo '<option value="'.$kki.'" '.$check_selected.'">' .$vvi.'</option>';
 		  }
 
       		  echo '</select></label></li>';
