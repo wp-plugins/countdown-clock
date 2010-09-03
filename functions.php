@@ -259,6 +259,7 @@ function cdc_print_type_list($type){
 	 $type_list =array(
 	       "3010" => "Compact",
 	       "3011" => "Horizontal",
+       	       "3003" => "Fireworks",
 	       "3015" => "Compact with Background",
 	       "3014" => "Vertical",
 	       "3012" => "Square",
