@@ -9,7 +9,7 @@ Stable tag: 1.1
 
 == Description ==
 
-Display a flash countdown on your sidebar to any event. Select date, title and event text from a choice of countdown designs, colors and sizes.
+Display a flash countdown clock configured an event of your choice. Select the date, title and event text on a choice of countdown designs, colors and sizes.
 
 * Select from a range of flash countdown clocks
 * Select size and layout
