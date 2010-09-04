@@ -44,7 +44,7 @@ Display a flash countdown clock configured an event of your choice. Select the d
 
 = 1.0 =
 * Released 08/02/2010 
-* First release  includes two most popular analog and digital clocks 
+* First release  includes most layouts
 
 
 
