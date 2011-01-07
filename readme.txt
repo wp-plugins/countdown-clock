@@ -14,7 +14,7 @@ Display a flash countdown clock configured an event of your choice. Select the d
 * Select from a range of flash countdown clocks
 * Select size and layout
 * Select from set events like Christmas, New Year, or make your own countdown 
-* Select text, border and background color
+* Select text, border and background color and date
 * Select background pictures or animations
 * Full range of events and designs can be seen at [mycountdown.org](http://mycountdown.org "All the countdowns in the world") 
 
@@ -24,7 +24,7 @@ Display a flash countdown clock configured an event of your choice. Select the d
 2. Upload the folder `countdown-clock` to your WP plugin folder `/wp-content/plugins/` directory,
 3. Go to Plugins > Installed, and activate the plugin,
 4. Go to Appearance > Widgets, and drag the widget to a sidebar,
-5. Select the clock type, colors, background and size from the countdown setting menu
+5. Select the clock type, colors, background, date and size from the countdown setting menu
 6. For a customized event and messages, select the "My Countdown" event type and save the setting.
 
 == Screenshots ==
@@ -52,7 +52,7 @@ Display a flash countdown clock configured an event of your choice. Select the d
 == Frequently Asked Questions ==
 
 = How do I customize my event and message? =
-On the control panel select "My Countdown" event type and save the setting. Two new input text boxes will appear for your messages.
+On the control panel select "My Countdown" event type and save the setting. A date and text input boxes will appear for your messages.
 
 = How do I customize the colours? =
 Go to the Appearance->Widgets tab in your wordpress admin panel, and choose click on settings for the countdown clock, select text, border and background colors from the drop downs
