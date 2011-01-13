@@ -1,7 +1,7 @@
 === Countdown Clock ===
-Contributors: mycountdown.org
+Contributors: enclick
 Donate link: http://www.mycountdown.org/
-Tags: countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, christmas countdown
+Tags: countdown, timer, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, christmas countdown
 Tested up to: 3.0.1
 Requires at least: 1.5
 Stable tag: 1.1
@@ -9,14 +9,14 @@ Stable tag: 1.1
 
 == Description ==
 
-Display a flash countdown clock configured an event of your choice. Select the date, title and event text on a choice of countdown designs, colors and sizes.
+Display a flash countdown clock configured to an event of your choice. Select the date, title and event text on a choice of countdown designs, colors and sizes.
 
 * Select from a range of flash countdown clocks
 * Select size and layout
-* Select from set events like Christmas, New Year, or make your own countdown 
+* Select from a range of set events like Christmas, New Year, or make your custom countdown 
 * Select text, border and background color and date
 * Select background pictures or animations
-* Full range of events and designs can be seen at [mycountdown.org](http://mycountdown.org "All the countdowns in the world") 
+* See the full range of events and designs at [mycountdown.org](http://mycountdown.org "All the countdowns in the world") 
 
 == Installation ==
 
