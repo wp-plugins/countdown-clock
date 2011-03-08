@@ -259,6 +259,7 @@ function cdc_print_type_list($type){
 	 $type_list =array(
 	       "3010" => "Compact",
 	       "3011" => "Horizontal",
+       	       "3003" => "Fireworks",
 	       "3015" => "Compact with Background",
 	       "3014" => "Vertical",
 	       "3012" => "Square",
@@ -274,6 +275,45 @@ function cdc_print_type_list($type){
 	   		$check_value = ' SELECTED ';
 
 		echo '<option value="'.$key.'" style="background-color:'.$key .'" '.$check_value .'>'.$ttype.'</option>';
+		echo "\n";
+	}
+
+}
+
+
+
+// This function print for timezone selector
+
+function cdc_print_timezone($timezone){
+
+
+	$file_location = dirname(__FILE__)."/dropdown.ser"; 
+	if ($fd = fopen($file_location,'r')){
+		$dropdown_ser = fread($fd,filesize($file_location));
+		fclose($fd);
+	}
+	$dropdown = array();
+	$dropdown = unserialize($dropdown_ser);
+
+	foreach ($dropdown as $tz_line)
+	{
+		$selected = "";
+		if($tz_line['timezone'] == $timezone)
+			$selected = "SELECTED";
+
+		if($tz_line['timezone'] == "UTC"){
+			$tz_line['name'] = "GMT";
+			$tz_line['timezone'] = "UTC";
+		}
+		elseif($tz_line['timezone'] == "Kwajalein")
+			$tz_line['UTCoffset'] = "-12:00";
+
+		if($tz_line['UTCoffset'] == "+00:00") 
+			$tz_line['UTCoffset'] = "(UTC)";
+		else
+			$tz_line['UTCoffset'] = "(UTC " . $tz_line['UTCoffset'] . ")";
+
+		echo '<option value="'. $tz_line['timezone'].'" '.$selected . '>'.$tz_line['UTCoffset']." ".$tz_line['name']."</option>";
 		echo "\n";
 	}
 

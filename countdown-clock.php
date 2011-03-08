@@ -2,8 +2,8 @@
 /*
 Plugin Name: Countdown Clock
 Description: Display a flash countdown clock on your sidebar set with text and event of your choosing. Choice of clock designs, colors, sizes, background pictures and animations.
-Author: mycountdown.org
-Version: 1.0
+Author: enclick
+Version: 1.2
 Author URI: http://mycountdown.org
 Plugin URI: http://mycountdown.org/wordpress-countdown-clock-plugin/
 */
@@ -49,17 +49,18 @@ function countdown_clock_init()
            	'transparentflag'=>'0', 
            	'group' => 'Special Day',
            	'countdown' => 'Birthday',
-           	'text1' => 'Pauls Birthday',
-           	'text2' => 'Great Birthday',
+           	'text1' => 'My Birthday',
+           	'text2' => 'Happy Birthday!',
            	'background' => '1',
            	'event_day' => '12',
-           	'event_month' => '11',
-           	'event_year' => '2010',
+           	'event_month' => '3',
+           	'event_year' => '2011',
            	'size' => '150',
            	'typeflag' => '3010',
            	'text_color' => '#000000',
            	'border_color' => '#963939',
-           	'background_color' => '#FFFFFF'
+           	'background_color' => '#FFFFFF',
+           	'timezone' => 'UTC'
 	   );
 	}
 
@@ -83,6 +84,7 @@ function countdown_clock_init()
               $newoptions['text_color'] = strip_tags(stripslashes($_POST['countdown-clock-text-color']));
               $newoptions['border_color'] = strip_tags(stripslashes($_POST['countdown-clock-border-color']));
               $newoptions['background_color'] = strip_tags(stripslashes($_POST['countdown-clock-background-color']));
+              $newoptions['timezone'] = strip_tags(stripslashes($_POST['countdown-clock-timezone']));
         }
 
 
@@ -109,12 +111,13 @@ function countdown_clock_init()
       	$text_color = htmlspecialchars($options['text_color'], ENT_QUOTES);
       	$border_color = htmlspecialchars($options['border_color'], ENT_QUOTES);
       	$background_color = htmlspecialchars($options['background_color'], ENT_QUOTES);
+      	$timezone = htmlspecialchars($options['timezone'], ENT_QUOTES);
 
       	echo '<ul><li style="text-align:center;list-style: none;"><label for="clock-title">Countdown Clock<br> by <a href="http://mycountdown.org">mycountdown.org</a></label></li>';
 
        	// Get group
 
-       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-group">Event Type'.
+       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-group">Event Type*'.
                '<select id="countdown-clock-group" name="countdown-clock-group" style="width:100%">';
      	cdc_print_thegroup_list($group, $group_list);
       	echo '</select></label></li>';
@@ -122,7 +125,7 @@ function countdown_clock_init()
 
        	// Get countdown
 
-       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-countdown">Countdown'.
+       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-countdown">Countdown*'.
                '<select id="countdown-clock-countdown" name="countdown-clock-countdown" style="width:100%">';
      	cdc_print_thecountdown_list($group,$countdown, $countdown_list);
       	echo '</select></label></li>';
@@ -233,8 +236,12 @@ function countdown_clock_init()
       	echo '</select></label>';
       	echo '</li>';
 
-
-
+      	// Set TIMEZONE
+      	echo '<li style="list-style: none;"><label for="countdown-clock-timezone">'.'Timezone:&nbsp;';
+       	echo '<select id="countdown-clock-timezone" name="countdown-clock-timezone"  style="width:150px" >';
+      	cdc_print_timezone($timezone);
+      	echo '</select></label>';
+      	echo '</li>';
 
 
 	//   Transparent option
@@ -276,7 +283,7 @@ function countdown_clock_init()
 	</label></li>';
 
 	echo "\n";
-        echo '<li style="list-style: none;font-size:9px;text-align:left;margin:20px 0px 0px 0px">*Save after each selection</li>';
+        echo '<li style="list-style: none;font-size:9px;text-align:left;margin:20px 0px 0px 0px">*SAVE AFTER EACH SELECTION</li>';
 	echo '</ul>';
 
 
@@ -316,6 +323,7 @@ function countdown_clock_init()
       	$text_color = htmlspecialchars($options['text_color'], ENT_QUOTES);
       	$border_color = htmlspecialchars($options['border_color'], ENT_QUOTES);
       	$background_color = htmlspecialchars($options['background_color'], ENT_QUOTES);
+      	$timezone = htmlspecialchars($options['timezone'], ENT_QUOTES);
 
 	$new_countdown_date = $event_year ."-" . $event_month . "-" . $event_day;
 
@@ -354,6 +362,11 @@ function countdown_clock_init()
 	$widget_call_string .= '&widget_number='.$typeflag;
 	$widget_call_string .= '&text1='.$text1;
 	$widget_call_string .= '&text2='.$text2;
+
+	if(empty($timezone))
+		$timezone= "UTC";
+
+	$widget_call_string .= '&timezone='.$timezone;
 
 	$lgroup = strtolower($group);
 	if($lgroup == "special+day" || $lgroup == "my+countdown" || $lgroup == "event")
