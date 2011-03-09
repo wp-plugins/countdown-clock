@@ -3,7 +3,7 @@
 Plugin Name: Countdown Clock
 Description: Display a flash countdown clock on your sidebar set with text and event of your choosing. Choice of clock designs, colors, sizes, background pictures and animations.
 Author: enclick
-Version: 1.2
+Version: 1.1
 Author URI: http://mycountdown.org
 Plugin URI: http://mycountdown.org/wordpress-countdown-clock-plugin/
 */
@@ -117,7 +117,7 @@ function countdown_clock_init()
 
        	// Get group
 
-       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-group">Event Type*'.
+       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-group">Event Type <div style="display:inline;font-size:8px">(Save settings after selecting)</div>'.
                '<select id="countdown-clock-group" name="countdown-clock-group" style="width:100%">';
      	cdc_print_thegroup_list($group, $group_list);
       	echo '</select></label></li>';
@@ -125,7 +125,7 @@ function countdown_clock_init()
 
        	// Get countdown
 
-       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-countdown">Countdown*'.
+       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-countdown">Countdown <div style="display:inline;font-size:8px">(Save settings after selecting)</div>'.
                '<select id="countdown-clock-countdown" name="countdown-clock-countdown" style="width:100%">';
      	cdc_print_thecountdown_list($group,$countdown, $countdown_list);
       	echo '</select></label></li>';
@@ -282,8 +282,6 @@ function countdown_clock_init()
 	<input type="checkbox" id="countdown-clock-titleflag" name="countdown-clock-titleflag" value=1 '.$title_checked.' /> 
 	</label></li>';
 
-	echo "\n";
-        echo '<li style="list-style: none;font-size:9px;text-align:left;margin:20px 0px 0px 0px">*SAVE AFTER EACH SELECTION</li>';
 	echo '</ul>';
 
 
