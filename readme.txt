@@ -68,7 +68,7 @@ You can select the countdown clock to be transparent, so the countdown's backgro
 Choosing the event type will provide the best selection of background pictures and animations
 
 = Can I set the time of day and world timezone for the event ? =
-The setting will be available in the next release of the plugin
+Yes, select from the timezone dropdown the time zone in your area
 
 = Is there support  ? = 
 Further support is available at [mycountdown.org/support](http://mycountdown.org/wordpress-countdown-clock-plugin/) 
