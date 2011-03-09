@@ -1,7 +1,7 @@
 === Countdown Clock ===
 Contributors: enclick
 Donate link: http://www.mycountdown.org/
-Tags: countdown, timer, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, christmas countdown
+Tags: countdown, count down, wedding, birthday, summer, spring, world cup, exams, timer, birthday countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, christmas countdown
 Tested up to: 3.0.9
 Requires at least: 1.5
 Stable tag: 1.2
