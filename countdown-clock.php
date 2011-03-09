@@ -330,7 +330,7 @@ function countdown_clock_init()
 	if(empty($event_day) || empty($event_month) || empty($event_year) )
 		$event_time = date('U',time()+3600*24*300);
 	else{
-		$dateTimeZoneUTC = new DateTimeZone("UTC");
+		$dateTimeZoneUTC = new DateTimeZone($timezone);
         	$new_dateTimeUTC = new DateTime($new_countdown_date, $dateTimeZoneUTC);
  		$event_time =   $new_dateTimeUTC->format('U') ;
 	}
