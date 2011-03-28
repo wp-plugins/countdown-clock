@@ -1,22 +1,22 @@
 === Countdown Clock ===
-Contributors: mycountdown.org
+Contributors: enclick
 Donate link: http://www.mycountdown.org/
-Tags: countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, christmas countdown
-Tested up to: 3.0.1
+Tags: countdown, count down, wedding, birthday, summer, spring, world cup, exams, timer, birthday countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, halloween, pregnancy, baby
+Tested up to: 3.0.9
 Requires at least: 1.5
-Stable tag: 1.1
+Stable tag: 1.2
 
 
 == Description ==
 
-Display a flash countdown on your sidebar to any event. Select date, title and event text from a choice of countdown designs, colors and sizes.
+Display a flash countdown clock configured to an event of your choice. Select the date, title and event text on a choice of countdown designs, colors and sizes.
 
 * Select from a range of flash countdown clocks
 * Select size and layout
-* Select from set events like Christmas, New Year, or make your own countdown
-* Select text, border and background color
+* Select from a range of set events like Christmas, New Year, or make your custom countdown 
+* Select text, border and background color and date
 * Select background pictures or animations
-* Full range of events and designs can be seen at [mycountdown.org](http://mycountdown.org "All the countdowns in the world") 
+* See the full range of events and designs at [mycountdown.org](http://mycountdown.org "All the countdowns in the world") 
 
 == Installation ==
 
@@ -24,7 +24,8 @@ Display a flash countdown on your sidebar to any event. Select date, title and e
 2. Upload the folder `countdown-clock` to your WP plugin folder `/wp-content/plugins/` directory,
 3. Go to Plugins > Installed, and activate the plugin,
 4. Go to Appearance > Widgets, and drag the widget to a sidebar,
-5. Select the clock type, colors, background and size from the countdown setting menu
+5. Select the clock type, colors, background, date and size from the countdown setting menu
+6. For a customized event and messages, select the "My Countdown" event type and save the setting.
 
 == Screenshots ==
 
@@ -38,17 +39,24 @@ Display a flash countdown on your sidebar to any event. Select date, title and e
 
 == Changelog ==
 
+= 1.2 =
+* Released 08/03/2011
+* Added timezone option
+
 = 1.1 =
 * Released 03/09/2010 
 * Added popular Fireworks design
 
 = 1.0 =
 * Released 08/02/2010 
-* First release  includes two most popular analog and digital clocks 
+* First release  includes most layouts
 
 
 
 == Frequently Asked Questions ==
+
+= How do I customize my event and message? =
+On the control panel select "My Countdown" event type and save the setting. A date and text input boxes will appear for your messages.
 
 = How do I customize the colours? =
 Go to the Appearance->Widgets tab in your wordpress admin panel, and choose click on settings for the countdown clock, select text, border and background colors from the drop downs
@@ -60,7 +68,7 @@ You can select the countdown clock to be transparent, so the countdown's backgro
 Choosing the event type will provide the best selection of background pictures and animations
 
 = Can I set the time of day and world timezone for the event ? =
-The setting will be available in the next release of the plugin
+Yes, select from the timezone dropdown the time zone in your area
 
 = Is there support  ? = 
 Further support is available at [mycountdown.org/support](http://mycountdown.org/wordpress-countdown-clock-plugin/) 
