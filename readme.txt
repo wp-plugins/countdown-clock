@@ -9,13 +9,13 @@ Stable tag: 1.2
 
 == Description ==
 
-Display a flash countdown clock configured to an event of your choice. Select the date, title and event text on a choice of countdown designs, colors and sizes.
+Display a countdown clock configured to an event of your choice. Select the date, title and event text on a choice of countdown designs, colors and sizes.
 
-* Select from a range of flash countdown clocks
-* Select size and layout
-* Select from a range of set events like Christmas, New Year, or make your custom countdown 
-* Select text, border and background color and date
-* Select background pictures or animations
+* Select the layout and choose the size
+* Select text and background colors
+* Select from a range of fixed events like Christmas, New Year, or make your own custom countdown 
+* For custom countdown, choose texts, date and timezone for precise timing
+* Pictures and animations are available for the background
 * See the full range of events and designs at [mycountdown.org](http://mycountdown.org "All the countdowns in the world") 
 
 == Installation ==
