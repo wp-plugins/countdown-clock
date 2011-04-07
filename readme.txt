@@ -12,7 +12,7 @@ Stable tag: 1.2
 Display a countdown clock configured to an event of your choice. Select the date, title and event text on a choice of countdown designs, colors and sizes.
 
 * Select the layout and choose the size
-* Select from a range of fixed events like Christmas, New Year, or make your own custom countdown 
+* Select from a list of events like Christmas, New Year, or make your own custom countdown 
 * Select your own text and background colors
 * For custom countdown, choose texts, date and timezone for precise timing
 * Pictures and animations are available for the background
