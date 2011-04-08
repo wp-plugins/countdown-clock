@@ -69,5 +69,11 @@ Choosing the event type will provide the best selection of background pictures a
 = Can I set the time of day and world timezone for the event ? =
 Yes, select from the timezone dropdown the time zone in your area
 
+= Can I have multiple widgets on the sidebar ? =
+Yes, but use the widget generator at [mycountdown.org/getwidget](http://mycountdown.org/getwidget/), then use wordpress widget admin to insert text on your sidebar with each widget code
+
 = Is there support  ? = 
-Further support is available at [mycountdown.org/support](http://mycountdown.org/wordpress-countdown-clock-plugin/) 
+Further support is available at [mycountdown.org/support](http://mycountdown.org/wordpress-countdown-clock-plugin/), 
+
+= Feedback  = 
+Please send feedback to widgets at mycountdown.org
