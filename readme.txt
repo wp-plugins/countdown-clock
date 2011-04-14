@@ -21,7 +21,7 @@ Display a countdown clock configured to an event of your choice. Select the date
 
 1. Download the zip file and extract the contents,
 2. Upload the `countdown-clock` folder to your WP plugin folder `/wp-content/plugins/` directory,
-3. Go to Plugins > Installed, and activate the plugin,
+3. Go to Plugins > Plugins, and activate the plugin,
 4. Go to Appearance > Widgets, and drag the widget to a sidebar,
 5. Open countdown clock's settings menu and customize the clock type, size, colors, background dates and text.
 6. For a fully customized event, select the "My Countdown" event type and save the setting.
