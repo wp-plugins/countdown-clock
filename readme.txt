@@ -25,7 +25,8 @@ Display a countdown clock configured to an event of your choice. Select the date
 4. Go to Appearance > Widgets, and drag the widget to a sidebar,
 5. Open countdown clock's settings menu and customize the clock type, size, colors, background dates and text.
 6. For a fully customized event, select the "My Countdown" event type and save the setting.
-7. Please leave a comment regarding bugs, and please rate our plugin
+7. Please send us comment regarding bugs to widgets at mycountdown.org, we make efforst to solve the problem
+8. Please rate our plugin!
 
 == Screenshots ==
 
