@@ -115,7 +115,7 @@ function countdown_clock_init()
 
        	// Get group
 
-       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-group">Event Type <div style="display:inline;font-size:8px">(Save settings after selecting)</div>'.
+       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-group">Event Type <div style="display:inline;font-size:9px">(Save after selecting)</div>'.
                '<select id="countdown-clock-group" name="countdown-clock-group" style="width:100%">';
      	cdc_print_thegroup_list($group, $group_list);
       	echo '</select></label></li>';
@@ -123,7 +123,7 @@ function countdown_clock_init()
 
        	// Get countdown
 
-       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-countdown">Countdown <div style="display:inline;font-size:8px">(Save settings after selecting)</div>'.
+       	echo '<li style="list-style: none;align:center;text-align:center"><label for="countdown-clock-countdown">Countdown <div style="display:inline;font-size:9px">(Save after selecting)</div>'.
                '<select id="countdown-clock-countdown" name="countdown-clock-countdown" style="width:100%">';
      	cdc_print_thecountdown_list($group,$countdown, $countdown_list);
       	echo '</select></label></li>';
