@@ -20,13 +20,16 @@ Display a countdown clock configured to an event of your choice. Select the date
 == Installation ==
 
 1. Download the zip file and extract the contents,
-2. Upload the `countdown-clock` folder to your WP plugin folder `/wp-content/plugins/` directory,
-3. Go to Plugins > Plugins, and activate the plugin,
-4. Go to Appearance > Widgets, and drag the widget to a sidebar,
-5. Open countdown clock's settings menu and customize the clock type, size, colors, background dates and text.
-6. For a fully customized event, select the "My Countdown" event type and save the setting.
-7. Please send us comment regarding bugs to widgets at mycountdown.org, we make efforst to solve the problem
-8. Please rate our plugin!
+2. Upload the `countdown-clock` folder to your WP plugin folder `/wp-content/plugins/` directory
+3. Go to Plugins > Plugins, and activate the plugin
+4. Go to Appearance > Widgets, and drag the widget to a sidebar
+5. Open countdown clock's settings menu and customize the clock
+6. Select the "Event type"; either preset events like "Holiday" - "Christmas" 
+7. Or your own event, e.g. "Celebration" - "Birthday",
+8. Important: please "save" after each drop-down selection,
+9. Full customized event: select the "My Countdown" event type, save settings, and choose "My Countdown" in the countdown drop-down and save the setting
+10. Please send us comment regarding bugs to widgets at mycountdown.org, we make efforst to solve the problem
+11. Please rate our plugin!
 
 == Screenshots ==
 
@@ -56,8 +59,14 @@ Display a countdown clock configured to an event of your choice. Select the date
 
 == Frequently Asked Questions ==
 
-= How do I customize my event and message? =
-On the control panel select "My Countdown" event type and save the setting. A date and text input boxes will appear for your messages.
+= I cannot find the event I want =
+Have a quick look in  [mycountdown.org](http://mycountdown.org "All the countdowns in the world"), and search for your event, e.g. halloween, christmas, birthday, wedding, or pregnancy. Then go to "Event Type" dropdown, choose and save your selection. Then go to countdown drop-down and find your countdown, save the selection.
+
+= I want my own event =
+Select "My Countdown" event type and save, then look at the countdown drop-down. A date and text input boxes will appear for your messages.
+
+= I cannot input my chosen message =
+Some events are preset e.g. Christmas, and the messages have been preset for you. Some events are customizable e.g. Birthday. Go to "Event type" dropdown, choose "My countdown", save settings. Text boxes will appear for your event and the message on the day of the event.
 
 = How do I customize the colours? =
 Go to the Appearance->Widgets tab in your wordpress admin panel, and choose click on settings for the countdown clock, select text, border and background colors from the drop downs
@@ -65,17 +74,17 @@ Go to the Appearance->Widgets tab in your wordpress admin panel, and choose clic
 = Can I choose my colour? =
 You can select the countdown clock to be transparent, so the countdown's background will be that of your web page
 
-= Do I need to set the event type ? =
+= Why do I need to choose the event type and countdown type ? =
 Choosing the event type will provide the best selection of background pictures and animations
 
 = Can I set the time of day and world timezone for the event ? =
 Yes, select from the timezone dropdown the time zone in your area
 
 = Can I have multiple widgets on the sidebar ? =
-Yes, but use the widget generator at [mycountdown.org/getwidget](http://mycountdown.org/getwidget/), then use wordpress widget admin to insert text on your sidebar with each widget code
+Yes, but use the widget generator at [mycountdown.org/getwidget](http://mycountdown.org/getwidget/), then go to the widgets panel and insert the code as "Text" on your sidebar
 
 = Is there support  ? = 
 Further support is available at [mycountdown.org/support](http://mycountdown.org/wordpress-countdown-clock-plugin/), 
 
-= Feedback  = 
-Please send feedback to widgets at mycountdown.org
+= Email & Twitter = 
+We can be found by  widgets at mycountdown.org or [twitter.com/mycountdown](http://twitter.com/mycountdown)
