@@ -87,4 +87,4 @@ Yes, but use the widget generator at [mycountdown.org/getwidget](http://mycountd
 Further support is available at [mycountdown.org/support](http://mycountdown.org/wordpress-countdown-clock-plugin/), 
 
 = Email & Twitter = 
-We can be found by  widgets at mycountdown.org or [twitter.com/mycountdown](http://twitter.com/mycountdown)
+Contact us on widgets at mycountdown.org or [twitter.com/mycountdown](http://twitter.com/mycountdown)
