@@ -65,6 +65,9 @@ Have a quick look in  [mycountdown.org](http://mycountdown.org "All the countdow
 = I want my own event =
 Select "My Countdown" event type and save, then look at the countdown drop-down. A date and text input boxes will appear for your messages.
 
+= Can I paste the countdown onto my page on a post, rather than a sidebar =
+Yes, the javascript code is available directly from  [mycountdown.org](http://mycountdown.org "All the countdowns in the world"). You must paste the javascript into the post in HTML mode.
+
 = I cannot input my chosen message =
 Some events are preset e.g. Christmas, and the messages have been preset for you. Some events are customizable e.g. Birthday. Go to "Event type" dropdown, choose "My countdown", save settings. Text boxes will appear for your event and the message on the day of the event.
 
