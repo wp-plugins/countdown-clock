@@ -28,7 +28,7 @@ Display a countdown clock configured to an event of your choice. Select the date
 7. Or your own event, e.g. "Celebration" - "Birthday",
 8. Important: please "save" after each drop-down selection,
 9. Full customized event: select the "My Countdown" event type, save settings, then from "Countdown" dropdown choose "My Countdown", again save setting.
-10. Email any problems to widgets at mycountdown.org
+10. Please Email any problems to widgets at mycountdown.org, we will respond promptly
 11. Please rate our plugin!
 
 == Screenshots ==
@@ -75,7 +75,7 @@ Some events are preset e.g. Christmas, and the messages have been preset for you
 Go to the Appearance->Widgets tab in your wordpress admin panel, and choose click on settings for the countdown clock, select text, border and background colors from the drop downs
 
 = I am getting a "Fatal error: Cannot instantiate non-existent class: datetimezone" =
-Version 1.2 of the plugin requires at least version 5.x of PHP. You have still run the countdown clock on servers with PHP 4.x by using version 1.1 and less. The timezone option will not be available though.
+Version 1.2 of the plugin requires at least version 5.x of PHP. To run the plugin with PHP4 servers, design the widget directly in [mycountdown.org/getwidget](http://mycountdown.org/getwidget/), take the widget code and paste it into a Wordpress "Text" widget on the sidebar.
 
 = Can I choose my colour? =
 You can select the countdown clock to be transparent, so the countdown's background will be that of your web page
@@ -93,4 +93,4 @@ Yes, but use the widget generator at [mycountdown.org/getwidget](http://mycountd
 Further support is available at [mycountdown.org/support](http://mycountdown.org/wordpress-countdown-clock-plugin/), 
 
 = Email & Twitter = 
-Contact us on widgets at mycountdown.org or [twitter.com/mycountdown](http://twitter.com/mycountdown)
+Any problems please email me, email is widgets at mycountdown.org. Or send a message on [twitter.com/mycountdown](http://twitter.com/mycountdown)
