@@ -74,6 +74,9 @@ Some events are preset e.g. Christmas, and the messages have been preset for you
 = How do I customize the colours? =
 Go to the Appearance->Widgets tab in your wordpress admin panel, and choose click on settings for the countdown clock, select text, border and background colors from the drop downs
 
+= I am getting a "Fatal error: Cannot instantiate non-existent class: datetimezone" =
+Version 1.2 of the plugin requires at least version 5.x of PHP. You have still run the countdown clock on servers with PHP 4.x by using version 1.1 and less. The timezone option will not be available though.
+
 = Can I choose my colour? =
 You can select the countdown clock to be transparent, so the countdown's background will be that of your web page
 
