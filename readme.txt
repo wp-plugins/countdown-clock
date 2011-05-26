@@ -28,8 +28,8 @@ Display a countdown clock configured to an event of your choice. Select the date
 7. Or your own event, e.g. "Celebration" - "Birthday",
 8. Important: please "save" after each drop-down selection,
 9. Full customized event: select the "My Countdown" event type, save settings, then from "Countdown" dropdown choose "My Countdown", again save setting.
-10. Please Email any problems to widgets at mycountdown.org, we will respond promptly
-11. Please rate our plugin!
+10. If you find a problem, please email us on widgets(at)mycountdown.org, we will respond promptly,
+11. If you are happy with the widget, we would appreciate if you take the time to give us a positive rating. Thanks.
 
 == Screenshots ==
 
