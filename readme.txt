@@ -44,6 +44,7 @@ Display an animated countdown clock for an event of your choice. Select from a c
 5. Square Widget with background picture or animation
 6. Vertical Large Widget with background picture or animation
 7. Fireworks
+8. Admin Panel
 
 == Changelog ==
 
