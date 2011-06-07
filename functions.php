@@ -3,6 +3,8 @@
 function cdc_print_thegroup_list($group, $group_list)
 {
 
+	$predefined_output_string = "";
+	$personal_output_string = "";
 	foreach($group_list as $k => $v)
 	{
 		$check_value = "";
@@ -10,13 +12,29 @@ function cdc_print_thegroup_list($group, $group_list)
 	   		$check_value = " SELECTED ";
 		}
 
+		$extra_string="";
+		if(!($k == "Special Day" || $k == "My Countdown" || $k == "Event"))
+			  $extra_string = " (predefined events)";
+
 		$output_string = '<option value="' . $k . '" ';
 		$output_string .= $check_value . '>';
-		$output_string .= $k . '</option>';
-		echo $output_string;
-		echo "\n";
+
+		if($k == "Other")
+		      $k = "Seasons";
+
+		$output_string .= $k . $extra_string .'</option>';
+
+		if(($k == "Special Day" || $k == "My Countdown" || $k == "Event"))
+			  $personal_output_string .= $output_string;
+
+		if(!($k == "Special Day" || $k == "My Countdown" || $k == "Event"))
+			  $predefined_output_string .= $output_string;
+
+
 
 	}
+	echo $personal_output_string;	
+	echo $predefined_output_string;	
 
 	return $group_name;
 }
@@ -106,12 +124,15 @@ function cdc_print_themonth_list($month){
 function cdc_print_theyear_list($year){
 
 	 echo "\n";
-	 $ii=1980;
+	 if(!isset($year))
+		$year = date('Y',time());
+	$ii=1980;
 	while ($ii <= 2030)
 	{
 		$check_value = "";
 		if ($ii == $year)
 	   		$check_value = ' SELECTED ';
+
 		echo '<option value="'.$ii.'" '.$check_value .'>'.$ii.'</option>';
 		echo "\n";
 		$ii++;
@@ -260,7 +281,7 @@ function cdc_print_type_list($type){
 	       "3010" => "Compact",
 	       "3011" => "Horizontal",
        	       "3003" => "Fireworks",
-	       "3015" => "Compact with Background",
+	       "3015" => "Compact with Animation",
 	       "3014" => "Vertical",
 	       "3012" => "Square",
 	       "3013" => "Vertical Large"
@@ -313,9 +334,36 @@ function cdc_print_timezone($timezone){
 		else
 			$tz_line['UTCoffset'] = "(UTC " . $tz_line['UTCoffset'] . ")";
 
-		echo '<option value="'. $tz_line['timezone'].'" '.$selected . '>'.$tz_line['UTCoffset']." ".$tz_line['name']."</option>";
+		echo '<option width="250px" value="'. $tz_line['timezone'].'" '.$selected . '>'.$tz_line['UTCoffset']." ".$tz_line['name']."</option>";
 		echo "\n";
 	}
+
+}
+
+// This function print for time of day selector
+
+function cdc_print_time_of_day($time_of_day)
+{
+
+
+	 for ($iday = 0; $iday <= 23; $iday++)
+         {
+		$day_line['value'] = $iday;
+		$selected = "";
+
+		if($time_of_day == $iday)$selected = "SELECTED";
+		if($iday  == 0)
+			$day_line['name'] = "12am";
+		elseif($iday < 12 )
+			$day_line['name'] = $iday. "am";
+                elseif($iday==12)
+                        $day_line['name'] = ($iday). "pm";
+                else
+                        $day_line['name'] = ($iday -12). "pm";
+                     	echo '<option value="'. $iday .'" '.$selected . '>'. $day_line['name']."</option>";
+         }
+
+
 
 }
 
