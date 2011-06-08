@@ -40,6 +40,8 @@ Display a countdown clock configured to an event of your choice. Select the date
 5. Square Widget with background picture or animation
 6. Vertical Large Widget with background picture or animation
 7. Fireworks
+8. Admin Panel
+9. Summer Countdown
 
 == Changelog ==
 
