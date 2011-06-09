@@ -35,10 +35,10 @@ Display a countdown clock configured to an event of your choice. Select the date
 
 1. Compact Widget
 2. Horizontal Widget
-3. Vertical Widget with background picture or animation
-4. Compact Widget with background picture or animation
-5. Square Widget with background picture or animation
-6. Vertical Large Widget with background picture or animation
+3. Vertical Widget with animation
+4. Compact Widget with animation
+5. Square Widget with animation
+6. Vertical Large Widget with animation
 7. Fireworks
 8. Admin Panel
 9. Summer Countdown
