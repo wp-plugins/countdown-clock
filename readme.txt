@@ -37,14 +37,16 @@ Display an animated countdown clock for an event of your choice. Select from a c
 
 == Screenshots ==
 
-1. Compact Widget
-2. Horizontal Widget
-3. Vertical Widget with background picture or animation
-4. Compact Widget with background picture or animation
-5. Square Widget with background picture or animation
-6. Vertical Large Widget with background picture or animation
-7. Fireworks
+1. Compact layout
+2. Horizontal layout
+3. Vertical layout with animation
+4. Compact layout with animation
+5. Square layout with animation
+6. Vertical Large layout with animation
+7. Fireworks 
 8. Admin Panel
+9. Summer countdown
+10. Olympics countdown
 
 == Changelog ==
 
