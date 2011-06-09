@@ -42,6 +42,7 @@ Display a countdown clock configured to an event of your choice. Select the date
 7. Fireworks
 8. Admin Panel
 9. Summer Countdown
+10. Olympics Countdown
 
 == Changelog ==
 
