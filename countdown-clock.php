@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Countdown Clock
-Description: Display a flash countdown clock on your sidebar, with text and event date of your choosing. Choose from several clock designs, colors, sizes, background pictures and animations.
+Description: Display a flash countdown clock on your sidebar. Select from several clock designs, colors, sizes, pictures and animations.
 Author: enclick
 Version: 1.4
 Author URI: http://mycountdown.org
