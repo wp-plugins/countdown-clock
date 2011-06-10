@@ -1,10 +1,10 @@
 === Countdown Clock ===
 Contributors: enclick
 Donate link: http://www.mycountdown.org/
-Tags: countdown, count down, wedding, birthday, summer, spring, world cup, exams, timer, birthday countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, halloween, pregnancy, baby
+Tags: countdown, count down, wedding, birthday, summer, spring, world cup, exams, timer, birthday countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, halloween, pregnancy, baby, olympic games, olympics countdown, FIFA world cup countdown
 Tested up to: 3.0.9
-Requires at least: 1.5
-Stable tag: 1.3
+Requires at least: 2.8
+Stable tag: 1.4
 
 
 == Description ==
@@ -15,7 +15,7 @@ Display an animated countdown clock for an event of your choice. Select from a c
 * Choice of clock layouts, e.g. vertical or horizontal,
 * Choice of animations and pictures, e.g. falling confetti background,
 * Set the texts, date, time and timezone of your choice,
-* Or use the list of preset events like Christmas, New Year, or Summer,
+* Or use the list of preset events like Christmas, Summer, Olympics and World Cup countdown
 * See the full range of events and designs at [mycountdown.org](http://mycountdown.org "All the countdowns in the world") 
 
 == Installation ==
@@ -25,27 +25,33 @@ Display an animated countdown clock for an event of your choice. Select from a c
 3. Go to Plugins > Plugins, and activate the plugin
 4. Go to Appearance > Widgets, and drag the widget to a sidebar,
 5. Open countdown clock's settings menu and customize the clock,
-6. Note: You will need to "SAVE" multiple times as you make each selection,
-7. Select the "Type of Event"; either predefined events like "Holiday" - "Christmas" 
-8. Or personalized events, e.g. "Celebration" - "Birthday",
+6. Select the "Type of Event"; either predefined events like "Holiday" - "Christmas" 
+7. Or personalized events, e.g. "Celebration" - "Birthday",
+8. Save the selection,
 9. Select your event from "List of Events".
-10. Type in the pre-event text, and the event time text message, (save again)
-10. IMPORTANT: PLEASE SAVE AFTER EACH DROPDOWN SELECTION
-11. For a full CUSTOM EVENT: (a) select the "My Countdown" event type, (b) save settings, then (c) from "List of Events" dropdown choose "My Countdown", (d) again save setting.
+10. Type in the pre-event text, and the event time text message,
+11. For a full CUSTOM EVENT: (a) select the "My Countdown" event type, then (b) from "List of Events" dropdown choose "My Countdown"
 12. If you find a problem, please email us on widgets(at)mycountdown.org, we will respond promptly,
 13. If you are happy with the widget, we would appreciate if you take the time to give us a positive rating. Thanks.
 
 == Screenshots ==
 
-1. Compact Widget
-2. Horizontal Widget
-3. Vertical Widget with background picture or animation
-4. Compact Widget with background picture or animation
-5. Square Widget with background picture or animation
-6. Vertical Large Widget with background picture or animation
-7. Fireworks
+1. Compact layout
+2. Horizontal layout
+3. Vertical layout with animation
+4. Compact layout with animation
+5. Square layout with animation
+6. Vertical Large layout with animation
+7. Fireworks 
+8. Admin Panel
+9. Summer countdown
+10. Olympics countdown
 
 == Changelog ==
+
+= 1.4 =
+* Released 28/06/2011
+* Upgraded plugin internals with Wordpress Widget Class for (i) improved admin panel, (ii) multiple countdowns on the sidebar, and (iii) compatibility with future Wordpress releases
 
 = 1.3 =
 * Released 07/06/2011
@@ -84,6 +90,9 @@ Go to the Appearance->Widgets tab in your wordpress admin panel, and choose clic
 
 = I am getting a "Fatal error: Cannot instantiate non-existent class: datetimezone" =
 Version 1.2 of the plugin requires at least version 5.x of PHP. To run the plugin with PHP4 servers, design the widget directly in [mycountdown.org/getwidget](http://mycountdown.org/getwidget/), take the widget code and paste it into a Wordpress "Text" widget on the sidebar.
+
+= My wordpress is older than 2.8
+Download version 1.3 of the countdown-clock, which is compatible with 1.5 or higher
 
 = Can I choose my colour? =
 You can select the countdown clock to be transparent, so the countdown's background will be that of your web page
