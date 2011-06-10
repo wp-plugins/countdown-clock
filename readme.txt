@@ -31,7 +31,7 @@ Display an animated countdown clock for an event of your choice. Select from a c
 9. Select your event from "List of Events".
 10. Type in the pre-event text, and the event time text message,
 11. For a full CUSTOM EVENT: (a) select the "My Countdown" event type, then (b) from "List of Events" dropdown choose "My Countdown"
-12. If you find a problem, please email us on widgets(at)mycountdown.org, we will respond promptly,
+12. Please Email us on widgets(at)mycountdown.org with any problems. We appreciate the help in improving the plugin.
 13. If you are happy with the widget, we would appreciate if you take the time to give us a positive rating. Thanks.
 
 == Screenshots ==
