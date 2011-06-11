@@ -50,7 +50,7 @@ Display an animated countdown clock for an event of your choice. Select from a c
 == Changelog ==
 
 = 1.4 =
-* Released 28/06/2011
+* Released 10/06/2011
 * Upgraded plugin internals with Wordpress Widget Class for (i) improved admin panel, (ii) multiple countdowns on the sidebar, and (iii) compatibility with future Wordpress releases
 
 = 1.3 =
