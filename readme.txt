@@ -94,9 +94,6 @@ Version 1.2 of the plugin requires at least version 5.x of PHP. To run the plugi
 = My wordpress is older than 2.8
 Download version 1.3 of the countdown-clock, which is compatible with 1.5 or higher
 
-= Can I choose my colour? =
-You can select the countdown clock to be transparent, so the countdown's background will be that of your web page
-
 = Why do I need to choose the event type and countdown type ? =
 Choosing the event type will provide the best selection of background pictures and animations
 
@@ -107,7 +104,7 @@ Yes, select from the timezone dropdown select the time zone in your area.
 Yes, select the hour of your event
 
 = Can I have multiple widgets on the sidebar ? =
-Yes, but use the widget generator at [mycountdown.org/getwidget](http://mycountdown.org/getwidget/), then go to the widgets panel and insert the code as "Text" on your sidebar
+Yes, versions 1.4 upwards allow multiple widgets on the sidebar and page.
 
 = Is there support  ? = 
 Further support is available at [mycountdown.org/support](http://mycountdown.org/wordpress-countdown-clock-plugin/), 
