@@ -2,7 +2,7 @@
 Contributors: enclick
 Donate link: http://www.mycountdown.org/
 Tags: countdown, count down, wedding, birthday, summer, spring, world cup, exams, timer, birthday countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, halloween, pregnancy, baby, olympic games, olympics countdown, FIFA world cup countdown
-Tested up to: 3.0.9
+Tested up to: 3.1.3
 Requires at least: 2.8
 Stable tag: 1.4
 
@@ -73,6 +73,12 @@ Display an animated countdown clock for an event of your choice. Select from a c
 
 == Frequently Asked Questions ==
 
+= I am getting a "Fatal error: Cannot instantiate non-existent class: datetimezone" =
+Versions 1.2+ of the plugin requires at least version 5.x of PHP. To run the plugin with PHP4 servers, design the widget directly in [mycountdown.org/getwidget](http://mycountdown.org/getwidget/), take the widget code and paste it into a Wordpress "Text" widget on the sidebar. Alternatively use version 1.1 of the plugin, which does not have timezone support.
+
+= My wordpress is older than 2.8 =
+Download version 1.3 of the countdown-clock, which is compatible with 1.5 or higher
+
 = I cannot find the event I want =
 Have a quick look in  [mycountdown.org](http://mycountdown.org "All the countdowns in the world"), and search for your event, e.g. halloween, christmas, birthday, wedding, or pregnancy. Then go to "Event Type" dropdown, choose and save your selection. Then go to countdown drop-down and find your countdown, save the selection.
 
@@ -88,11 +94,6 @@ Some events are preset e.g. Christmas, and the dates have been preset for you. S
 = How do I customize the colours? =
 Go to the Appearance->Widgets tab in your wordpress admin panel, and choose click on settings for the countdown clock, select text, border and background colors from the drop downs
 
-= I am getting a "Fatal error: Cannot instantiate non-existent class: datetimezone" =
-Version 1.2 of the plugin requires at least version 5.x of PHP. To run the plugin with PHP4 servers, design the widget directly in [mycountdown.org/getwidget](http://mycountdown.org/getwidget/), take the widget code and paste it into a Wordpress "Text" widget on the sidebar.
-
-= My wordpress is older than 2.8
-Download version 1.3 of the countdown-clock, which is compatible with 1.5 or higher
 
 = Why do I need to choose the event type and countdown type ? =
 Choosing the event type will provide the best selection of background pictures and animations
