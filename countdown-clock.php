@@ -353,6 +353,9 @@ class countdown_clock extends WP_Widget
 	     elseif($group)
 			$title = $group . " Countdown";
 
+	     if(strtolower($countdown) == "my countdown")
+	                $title = "My Countdown";
+
              echo '<p><label for="' .$this->get_field_id( 'clock-title' ). '">';
 	     echo '<input type="hidden" id="' .$this->get_field_id( 'clock-title' ). '" name="' .$this->get_field_name( 'clock-title' ). '" value="'.$title.'" /> </label></p>';
 
