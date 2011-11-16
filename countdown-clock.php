@@ -368,6 +368,8 @@ class countdown_clock extends WP_Widget
 	     <input type="checkbox" id="' .$this->get_field_id( 'titleflag' ). '" name="' .$this->get_field_name( 'titleflag' ). '" value=1 '.$title_checked.' /> 
 	     </label></p>';
 
+		echo '<p style="text-align:right;align:right;font-size:9px"">save twice</p>';
+
 
 	}
 
