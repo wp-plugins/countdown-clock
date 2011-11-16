@@ -115,6 +115,7 @@ class countdown_clock extends WP_Widget
 		$defaults = array(
 	     	'clock-title'=>'Birthday Countdown',
            	'transparentflag'=>'0', 
+           	'titleflag'=>'0', 
            	'group' => 'Special Day',
            	'countdown' => 'Birthday',
            	'text1' => 'My Birthday',
