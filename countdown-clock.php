@@ -426,7 +426,7 @@ class countdown_clock extends WP_Widget
 
 
 		// Output title
-		echo "\n" . $before_title . $title . $after_title; 
+		echo "\n" . $before_title . $after_title; 
 
 
 		// Output Clock
