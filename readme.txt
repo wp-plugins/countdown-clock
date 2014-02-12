@@ -1,7 +1,7 @@
 === Countdown Clock ===
 Contributors: enclick
 Donate link: http://www.mycountdown.org/
-Tags: countdown, count down, wedding, birthday, summer, spring, world cup, exams, timer, birthday countdown, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, halloween, pregnancy, baby, olympic games, olympics countdown, FIFA world cup countdown
+Tags: countdown, count down, wedding, birthday, summer, spring, world cup, exams, timer, birthday countdown, html5, responsive widget, flash countdown, countdown clock, countdown widget, countdown generator, countdown ticker, ticker, countup, days since, days till, countdown till days, halloween, pregnancy, baby, olympic games, olympics countdown, FIFA world cup countdown
 Tested up to: 3.8
 Requires at least: 2.8
 Stable tag: 1.4
@@ -16,6 +16,7 @@ Display an animated countdown clock for an event of your choice. Select from a c
 * Choice of animations and pictures, e.g. falling confetti background,
 * Set the texts, date, time and timezone of your choice,
 * Or use the list of preset events like Christmas, Summer, Olympics and World Cup countdown
+* HTML5 responsive countdown, detects device and serves flash, html5, javascript progressively
 * See the full range of events and designs at [mycountdown.org](http://mycountdown.org "All the countdowns in the world") 
 
 == Installation ==
