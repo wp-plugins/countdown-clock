@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: Countdown Clock
-  Description: Display a flash countdown clock on your sidebar. Select from several clock designs, colors, sizes, pictures and animations.
+  Description: Display an animated countdown clock on your sidebar. Select from several clock designs, colors, sizes, pictures and animations. Responsive plugin, serves flash, jquery and javascript depending on device. 
   Author: enclick
   Version: 1.4
   Author URI: http://mycountdown.org
